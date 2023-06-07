@@ -53,8 +53,4 @@ public class ConfigLoader {
         if(prop != null) return prop;
         else throw new RuntimeException("property email is not specified in the config.properties file: ");
     }
-
-
-
-
 }
